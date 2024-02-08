@@ -1,0 +1,17 @@
+#custom-product-addons {
+    margin: 0px 200px 0px 0px;
+    padding: 20px;
+    border-radius: 5px;
+    background-color: #fafafa;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+#heading {
+    background-color: rgb(253, 230, 24);
+}
+
+#custom-product-addons label {
+    display: block;
+    margin-bottom: 10px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
