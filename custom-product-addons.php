@@ -53,10 +53,8 @@ function custom_product_addons_options() {
         echo '<p>Addon options are not properly configured.</p>';
     }
 
-    echo '</div>';
-
-
-    echo '</div>';
+        echo '</div>';
+        echo '</div>';
 
    echo '<div class="accordion">';
     echo '<input type="radio" name="radio-a" id="check2">';
