@@ -17,7 +17,11 @@ function custom_product_addons_options() {
     global $product;
 
     echo '<div id="custom-product-addons">';
-    echo '<div id="heading"> <h2>Extra Items</h2> </div>';
+    echo '<div class="accordion-wrapper">';
+    echo '<div class="accordion">';
+    echo '<input type="radio" name="radio-a" id="check1" checked>';
+    echo '<label class="accordion-label" for="check1">Extra Items?</label>';
+    echo '<div class="accordion-content">';
 
     
     $addon_options = get_option('custom_product_addons_options');
@@ -50,6 +54,21 @@ function custom_product_addons_options() {
     }
 
     echo '</div>';
+
+
+    echo '</div>';
+
+   echo '<div class="accordion">';
+    echo '<input type="radio" name="radio-a" id="check2">';
+    echo '<label class="accordion-label" for="check2">Accessories</label>';
+    echo '<div class="accordion-content">';
+      echo '<p>Here goes another extra list</p>';
+    echo '</div>';
+  echo '</div>';
+    echo '</div>';
+    echo '</div>';
+
+  echo '</div>';
 }
 
 add_action('woocommerce_before_add_to_cart_button', 'custom_product_addons_options');
