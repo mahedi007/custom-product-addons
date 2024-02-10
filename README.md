@@ -4,7 +4,7 @@ Custom Product Addons is a WordPress plugin that allows you to add extra addon o
 
 ## Installation
 
-1. Download the plugin zip file from the [releases page](https://github.com/mahedi007/custom-product-addons/releases).
+1. Download the plugin zip file from the [releases page](https://github.com/mahedi007/custom-product-addons.git).
 2. In your WordPress admin panel, navigate to Plugins -> Add New.
 3. Click on the "Upload Plugin" button and select the plugin zip file you downloaded.
 4. Click "Install Now" and then activate the plugin.
